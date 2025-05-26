@@ -1,0 +1,10 @@
+# Nmap 7.95 scan initiated Mon May 26 17:10:11 2025 as: /usr/lib/nmap/nmap --privileged -sS -p- -oN scanfullport_192.168.54.163.txt 192.168.54.163
+Nmap scan report for 192.168.54.163
+Host is up (0.0012s latency).
+Not shown: 65533 filtered tcp ports (no-response)
+PORT   STATE SERVICE
+22/tcp open  ssh
+80/tcp open  http
+MAC Address: 08:00:27:5D:E6:31 (PCS Systemtechnik/Oracle VirtualBox virtual NIC)
+
+# Nmap done at Mon May 26 17:11:55 2025 -- 1 IP address (1 host up) scanned in 104.02 seconds
