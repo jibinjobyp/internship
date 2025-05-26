@@ -1,0 +1,97 @@
+# Nmap 7.95 scan initiated Mon May 26 16:51:45 2025 as: /usr/lib/nmap/nmap --privileged -sS -sV -O -T4 -p- -oN full_scan.txt 192.168.54.0/24
+Nmap scan report for 192.168.54.9
+Host is up (0.0010s latency).
+Not shown: 65533 filtered tcp ports (no-response)
+PORT     STATE SERVICE VERSION
+22/tcp   open  ssh     OpenSSH 7.2p2 Ubuntu 4ubuntu2.2 (Ubuntu Linux; protocol 2.0)
+3000/tcp open  http    Node.js Express framework
+MAC Address: 08:00:27:49:4C:45 (PCS Systemtechnik/Oracle VirtualBox virtual NIC)
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Aggressive OS guesses: Linux 3.10 - 4.11 (97%), Linux 3.13 - 4.4 (97%), Linux 3.16 - 4.6 (97%), Linux 3.2 - 4.14 (97%), Linux 3.8 - 3.16 (97%), Linux 4.4 (97%), Linux 3.13 (94%), Linux 4.2 (92%), OpenWrt Chaos Calmer 15.05 (Linux 3.18) or Designated Driver (Linux 4.1 or 4.4) (91%), Linux 4.10 (91%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 1 hop
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Nmap scan report for 192.168.54.109
+Host is up (0.0036s latency).
+Not shown: 65534 closed tcp ports (reset)
+PORT   STATE SERVICE VERSION
+53/tcp open  domain  dnsmasq 2.51
+MAC Address: FE:4E:3D:2E:4F:6A (Unknown)
+Device type: phone
+Running: Linux 4.X, Google Android 10.X|11.X|12.X
+OS CPE: cpe:/o:linux:linux_kernel:4 cpe:/o:google:android:10 cpe:/o:google:android:11 cpe:/o:google:android:12
+OS details: Android 10 - 12 (Linux 4.14 - 4.19)
+Network Distance: 1 hop
+
+Nmap scan report for 192.168.54.163
+Host is up (0.0011s latency).
+Not shown: 65533 filtered tcp ports (no-response)
+PORT   STATE SERVICE VERSION
+22/tcp open  ssh     OpenSSH 5.9p1 Debian 5ubuntu1.8 (Ubuntu Linux; protocol 2.0)
+80/tcp open  http    lighttpd 1.4.28
+MAC Address: 08:00:27:5D:E6:31 (PCS Systemtechnik/Oracle VirtualBox virtual NIC)
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: general purpose|phone|media device|WAP
+Running (JUST GUESSING): Linux 3.X|4.X (96%), Google Android 4.X|4.1.X|10.X|5.X (88%), Amazon embedded (87%)
+OS CPE: cpe:/o:linux:linux_kernel:3.18 cpe:/o:linux:linux_kernel:4 cpe:/o:google:android:4.0 cpe:/o:google:android:4.1.1 cpe:/o:linux:linux_kernel:4.1 cpe:/o:google:android:10 cpe:/o:linux:linux_kernel:4.9 cpe:/o:google:android:5.0
+Aggressive OS guesses: Linux 3.18 (96%), Linux 3.10 - 4.11 (93%), Linux 3.2 - 4.14 (93%), Android 4.0 (88%), Android 4.1.1 (87%), Linux 3.12 (87%), OpenWrt Chaos Calmer 15.05 (Linux 3.18) or Designated Driver (Linux 4.1 or 4.4) (87%), Linux 4.4 (87%), Amazon Fire TV (87%), Android 10 (Linux 4.9) (87%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 1 hop
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Nmap scan report for 192.168.54.179
+Host is up (0.00054s latency).
+All 65535 scanned ports on 192.168.54.179 are in ignored states.
+Not shown: 65535 filtered tcp ports (no-response)
+MAC Address: C8:8A:9A:4E:80:F9 (Intel Corporate)
+Too many fingerprints match this host to give specific OS details
+Network Distance: 1 hop
+
+Nmap scan report for 192.168.54.30
+Host is up (0.00013s latency).
+Not shown: 65533 closed tcp ports (reset)
+PORT     STATE SERVICE       VERSION
+3000/tcp open  ppp?
+3389/tcp open  ms-wbt-server Microsoft Terminal Service
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port3000-TCP:V=7.95%I=7%D=5/26%Time=68344F86%P=x86_64-pc-linux-gnu%r(Ge
+SF:nericLines,62,"HTTP/1\.1\x20400\x20Bad\x20Request\r\ncontent-type:\x20t
+SF:ext/plain\r\nconnection:\x20close\r\nserver:\x20thin\r\n\r\nBad\x20Requ
+SF:est")%r(GetRequest,16C1,"HTTP/1\.1\x20200\x20OK\r\nserver:\x20Apache/2\
+SF:.2\.3\x20\(CentOS\)\r\ncontent-type:\x20text/html;\x20charset=UTF-8\r\n
+SF:content-length:\x205599\r\nx-xss-protection:\x201;\x20mode=block\r\nx-c
+SF:ontent-type-options:\x20nosniff\r\nx-frame-options:\x20SAMEORIGIN\r\nco
+SF:nnection:\x20close\r\n\r\n<!DOCTYPE\x20html\x20PUBLIC\x20\"-//W3C//DTD\
+SF:x20XHTML\x201\.1//EN\"\x20\"http://www\.w3\.org/TR/xhtml11/DTD/xhtml11\
+SF:.dtd\"><head><title>Apache\x20HTTP\x20Server\x20Test\x20Page\x20powered
+SF:\x20by\x20CentOS</title><meta\x20http-equiv=\"Content-Type\"\x20content
+SF:=\"text/html;\x20charset=UTF-8\"\x20/><style\x20type=\"text/css\">body\
+SF:x20{background-color:\x20#fff;\x20color:\x20#000;font-size:\x200\.9em;f
+SF:ont-family:\x20sans-serif,helvetica;margin:\x200;padding:\x200;\x20}\x2
+SF:0\x20\x20\x20\x20\x20\x20\x20\x20\x20:link\x20{\x20\x20\x20\x20\x20\x20
+SF:\x20\x20color:\x20#0000FF;\x20\x20\x20\x20}\x20\x20\x20\x20\x20\x20\x20
+SF:\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20:visited\x20{\x
+SF:20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20color:\x20#00
+SF:00FF;\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20}\x20\x20\x20\
+SF:x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20
+SF:\x20\x20\x20\x20\x20\x20\x20\x20\x20a:hover\x20{\x20\x20\x20\x20\x20\x2
+SF:0\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x
+SF:20\x20color:\x20#3399FF;\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x2
+SF:0\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20}\x20\x20\x20\x20\x20\x20\x20\
+SF:x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20
+SF:\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20h1\x20{\x20\x20
+SF:\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x2
+SF:0\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20")
+SF:%r(Help,62,"HTTP/1\.1\x20400\x20Bad\x20Request\r\ncontent-type:\x20text
+SF:/plain\r\nconnection:\x20close\r\nserver:\x20thin\r\n\r\nBad\x20Request
+SF:");
+Device type: general purpose
+Running: Linux 2.6.X|5.X
+OS CPE: cpe:/o:linux:linux_kernel:2.6.32 cpe:/o:linux:linux_kernel:5 cpe:/o:linux:linux_kernel:6
+OS details: Linux 2.6.32, Linux 5.0 - 6.2
+Network Distance: 0 hops
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Mon May 26 16:55:00 2025 -- 256 IP addresses (5 hosts up) scanned in 195.32 seconds

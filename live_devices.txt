@@ -1,0 +1,16 @@
+# Nmap 7.95 scan initiated Mon May 26 17:02:21 2025 as: /usr/lib/nmap/nmap --privileged -sn -oN live_devices.txt 192.168.54.0/24
+Nmap scan report for 192.168.54.9
+Host is up (0.00076s latency).
+MAC Address: 08:00:27:49:4C:45 (PCS Systemtechnik/Oracle VirtualBox virtual NIC)
+Nmap scan report for 192.168.54.109
+Host is up (0.013s latency).
+MAC Address: FE:4E:3D:2E:4F:6A (Unknown)
+Nmap scan report for 192.168.54.163
+Host is up (0.0036s latency).
+MAC Address: 08:00:27:5D:E6:31 (PCS Systemtechnik/Oracle VirtualBox virtual NIC)
+Nmap scan report for 192.168.54.179
+Host is up (0.0033s latency).
+MAC Address: C8:8A:9A:4E:80:F9 (Intel Corporate)
+Nmap scan report for 192.168.54.30
+Host is up.
+# Nmap done at Mon May 26 17:02:23 2025 -- 256 IP addresses (5 hosts up) scanned in 1.91 seconds
